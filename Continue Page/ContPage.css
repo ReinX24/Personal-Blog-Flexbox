@@ -55,12 +55,13 @@ width: 100vw;
 
 .clearText {
 
-    padding: 0.5rem 1rem;
     background-color: white;
     color: black;
     border: 1px solid black;
+    text-align: center;
+    width: 10rem;
     
-    }
+}
     
 
 .articles {
