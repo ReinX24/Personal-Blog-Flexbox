@@ -1,0 +1,104 @@
+body {
+
+/*background-color: #008080;*/
+margin: 0;
+padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.centerContentContainer {
+
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:monospace;    
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.centerContent {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    line-height: 4rem;
+
+height: 100vh;
+width: 100vw;
+
+}
+
+.facebook,
+.instagram,
+.twitter {
+
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    /*border: 1px solid red;*/
+    font-size: 1.5rem;
+    font-weight: 900;
+
+}
+
+.clearText {
+
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    width: 10rem;
+    
+}
+    
+
+.facebook {
+
+    background-image: url(facebook.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.instagram {
+
+    background-image: url(instagram.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.twitter {
+
+    background-image: url(twitter.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
